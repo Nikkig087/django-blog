@@ -29,9 +29,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 SECRET_KEY = 'django-insecure-pmza1kyx)5gt*1$zmg%m=3mu&(tw-dv5@$zkds079x0@+p@m4j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['8000-nikkig087-djangoblog-b3sh1yiek0x.ws.codeinstitute-ide.net','.herokuapp.com'
+ALLOWED_HOSTS = ['8000-nikkig087-djangoblog-d124s6w1ztu.ws.codeinstitute-ide.net','.herokuapp.com'
 ]
 
 
@@ -150,5 +150,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
     "https://*.herokuapp.com",
-    "https://8000-nikkig087-djangoblog-b3sh1yiek0x.ws.codeinstitute-ide.net",
+    "https://8000-nikkig087-djangoblog-d124s6w1ztu.ws.codeinstitute-ide.net",
 ]
